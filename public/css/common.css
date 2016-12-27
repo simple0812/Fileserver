@@ -1,0 +1,37 @@
+/*.form-control {*/
+  /*margin-bottom: 10px*/
+/*}*/
+.formConFix{margin-bottom: 10px}
+.diabtnfix{margin-top:10px;text-align:right}
+
+.wrapper {
+    width: 800px; margin: 30px auto;
+}
+.taoverfix { overflow:scroll }
+input[type=file] {
+    display: none;
+}
+.sp-btnfix{margin-left: 5px}
+
+.moveFileImg {display: inline-block; width: 22px;height: 16px;background: url("/image/gbox.gif") no-repeat scroll -2px -227px; position: relative; z-index: 2; top:3px;}
+.divselected { background-color:skyblue; height: 23px; position: absolute;  width: 5000px; margin-left: -2500px; top:0px;  z-index: 0; }
+.sp-minus{display: inline-block; width: 15px;height: 15px;background: url("/image/gbox.gif") no-repeat scroll -45px -203px ; position: relative; z-index: 2;top:2px; }
+.sp-plus{display: inline-block; width: 15px;height: 15px;background: url("/image/gbox.gif") no-repeat scroll -45px -180px ; position: relative; z-index: 2;top:2px; }
+.sp-blank{display: inline-block; width: 15px;height: 15px;}
+.selectedfile{margin-right: 3px}
+.moveTo{color: #000000; position: relative; }
+.moveTo:link {color: #000000; text-decoration: none}
+.moveTo:visited {color: #000000; text-decoration: none}
+.moveTo:hover { color: #000000;text-decoration: none}
+.moveTo:active { color: #000000;text-decoration: none}
+.sharefix{width: 37px;position: relative;right:13px }
+.shareloack{display: inline-block;width: 11px}
+.locked{display: inline-block; width: 11px;height: 13px;background: url("/image/gbox.gif") no-repeat scroll -47px -314px ;position: relative; bottom: 5px}
+.tydirectory{display: inline-block; width: 26px;height: 22px;background: url("/image/type.gif") no-repeat scroll 0px 0px ; position: relative; left: 9px}
+.typicture{display: inline-block; width: 26px;height: 22px;background: url("/image/type.gif") no-repeat scroll 0px -80px ; position: relative; left: 9px}
+.tyvideo{display: inline-block; width: 26px;height: 22px;background: url("/image/type.gif") no-repeat scroll -224px -80px ; position: relative; left: 9px}
+.tyother{display: inline-block; width: 26px;height: 22px;background: url("/image/type.gif") no-repeat scroll -416px -80px ; position: relative; left: 9px}
+.tydocument{display: inline-block; width: 26px;height: 22px;background: url("/image/type.gif") no-repeat scroll -160px -80px ; position: relative; left: 9px }
+.sp-filename{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; }
+.txtout{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;width:60px;display:inline-block}
+.curpointer{cursor: pointer}

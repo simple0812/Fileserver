@@ -1,0 +1,16 @@
+{
+    "name": "gbox",
+    "version": "0.1.0",
+    "description": "GBOX's package",
+    "author": "songkang, zhanglei, chenxincong, fangyuxin",
+    "dependencies": {
+        "blueimp-md5": "1.0.3",
+        "esp": "0.1.16",
+        "filesize": "2.0.0",
+        "formidable": "latest",
+        "moment": "2.4.0",
+        "sqlite3": "3.1.8",
+        "underscore": "1.5.2",
+        "winston": "0.7.2"
+    }
+}
