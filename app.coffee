@@ -9,5 +9,5 @@ User = require './model/user'
 
 esp.auth '/login', -> User.find @cookie.token if @cookie?.token?
 
-esp.run 3000
+esp.run 80
 
