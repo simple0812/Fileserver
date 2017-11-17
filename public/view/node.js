@@ -212,7 +212,6 @@ NodeItemView = Backbone.View.extend({
                 if(tempMode.shared===2) {
                     $(this.el).children().children().children().children().children('b').first().addClass('locked');
                     if(!$('#usertype').html()  || tempMode.belongs===$('#username').html() )  {
-//                        var url='/node/'+tempMode.id;
                         $(this.el).find('.downfile').attr('href',url);
                     }
                     else {
@@ -226,7 +225,6 @@ NodeItemView = Backbone.View.extend({
                     }
 
                 } else {
-//                    var url='/node/'+tempMode.id;
                     $(this.el).find('.downfile').attr('href',url);
                 }
             }
